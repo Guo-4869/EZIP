@@ -1,0 +1,105 @@
+# EZip 源码许可协议（非商业）
+
+**版本 1.0　生效日期：2026-10-20　著作权人：Guo-4869**
+
+> 本协议同时提供英文参考译本，如中英文存在歧义，**以中文版本为准**。
+
+---
+
+## 一、许可范围
+
+1. **允许**（无需另行授权）：
+   - 个人学习、研究、测试、自用；
+   - 在非商业项目中复制、修改、分发本软件及其衍生作品；
+   - 教学、技术分享、开源社区讨论中引用本软件的代码片段。
+
+2. **禁止**（须经著作权人事先书面同意）：
+   未经著作权人明确书面许可，**不得将本软件（含源代码、编译产物、衍生作品）用于任何商业目的**。
+   商业目的包括但不限于：
+   - 销售本软件或其衍生作品（含付费下载、内购、订阅）；
+   - 将本软件集成进付费产品或付费服务中；
+   - 随硬件设备捆绑销售；
+   - 在商业组织内部用于生产经营、降本增效等经营活动；
+   - 以本软件为基础提供收费的技术支持、定制开发或托管服务。
+
+3. **分发条件**：允许非商业分发，但必须
+   - 保留本协议全文与著作权声明；
+   - 在显著位置注明修改内容（如有）；
+   - 不得暗示原作者为你的衍生作品背书。
+
+4. **商业授权**：如需商用，请通过本仓库的 Issues 联系著作权人获取书面授权（可另行约定授权范围与费用）。
+
+## 二、第三方组件
+
+本仓库 `libs/` 目录下的第三方库（zip4j、junrar、Apache Commons Compress、XZ for Java、SLF4J 等）
+分别遵循其自身许可证（Apache-2.0 / MIT / Public Domain），详见 `README.md` 第 8 节。
+本协议仅约束本项目作者拥有著作权的部分，**不改变、也不替代**上述第三方库的许可条款。
+分发包含这些库的产物时，须同时遵守其各自的许可证要求（保留版权与许可声明）。
+
+## 三、免责声明
+
+本软件按**「现状」**提供，不附带任何明示或暗示的担保，包括但不限于适销性、特定用途适用性和
+不侵权的担保。在任何情况下，著作权人均不对因使用本软件或无法使用本软件而产生的任何
+直接、间接、偶然、特殊或后果性损害承担责任，包括但不限于数据丢失、设备损坏或业务中断。
+
+使用本软件进行压缩/解压操作时，请自行备份重要数据。
+
+## 四、协议终止
+
+违反本协议任何条款，本协议授予的全部权利**立即自动终止**。终止后应立即停止使用、复制与分发，
+并删除持有的全部副本。著作权人保留追究法律责任的权利。
+
+## 五、其他
+
+本协议未明确授予的权利，均由著作权人保留。
+
+---
+
+# EZIP SOURCE LICENSE (NON-COMMERCIAL)
+
+**Version 1.0 · Effective 2026-10-20 · Copyright holder: Guo-4869**
+
+> This English text is a reference translation. **In case of any ambiguity, the Chinese version prevails.**
+
+## 1. Grant and Conditions
+
+1. **Permitted** (no further permission required):
+   - personal study, research, testing and private use;
+   - copying, modifying and redistributing the software and derivative works **for
+     non-commercial purposes**;
+   - quoting code fragments for teaching, technical sharing and community discussion.
+
+2. **Prohibited** (requires prior **written** permission from the copyright holder):
+   Any **commercial use** of this software, its source code, build artifacts or derivative
+   works, including but not limited to: selling the software (paid downloads, in-app
+   purchases, subscriptions); embedding it in a paid product or service; bundling it with
+   hardware for sale; using it for revenue-generating operations inside a commercial
+   organisation; providing paid support, customisation or hosting based on it.
+
+3. **Redistribution** for non-commercial purposes must retain this license and the copyright
+   notice, state any modifications, and must not imply endorsement by the original author.
+
+4. **Commercial licensing**: contact the copyright holder via this repository's Issues for a
+   written commercial license.
+
+## 2. Third-party components
+
+Libraries under `libs/` keep their own licenses (Apache-2.0 / MIT / Public Domain). This
+license applies only to the parts authored here and does not alter those licenses.
+
+## 3. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## 4. Termination
+
+Any violation of these terms terminates all rights granted here immediately. Upon termination
+you must stop using, copying and distributing the software and delete all copies.
+
+## 5. Reservation
+
+All rights not expressly granted are reserved by the copyright holder.

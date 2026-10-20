@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EZip</string>
+    <string name="storage">内部存储</string>
+
+    <string name="sort">排序</string>
+    <string name="more">更多</string>
+    <string name="select_all">全选</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="done">完成</string>
+    <string name="compress">压缩</string>
+    <string name="extract">解压</string>
+    <string name="delete">删除</string>
+    <string name="rename">重命名</string>
+    <string name="new_folder">新建文件夹</string>
+    <string name="refresh">刷新</string>
+    <string name="show_hidden">显示隐藏文件</string>
+    <string name="hide_hidden">隐藏隐藏文件</string>
+    <string name="about">关于</string>
+    <string name="privacy_title">隐私说明</string>
+    <string name="privacy_msg">EZip 不联网、不收集任何个人信息，也不申请网络权限（INTERNET）——从系统层面就无法上传数据。
+
+• 不收集：无账号、无统计上报、无广告、无崩溃上报
+• 只在本机处理：只读取你主动选择的文件，压缩/解压结果写回你指定的目录
+• 压缩包密码只用于本次操作，不保存、不上传、不写入日志
+• 预览用的临时文件放在应用缓存目录，随系统清理
+• 卸载应用即删除应用私有目录内的全部数据
+• 「所有文件访问权限」仅用于浏览和读写你手机上的文件，不会扫描或上传</string>
+    <string name="open_with">用其他应用打开</string>
+    <string name="open">打开</string>
+    <string name="selected_count">已选 %1$d 项</string>
+
+    <string name="empty_dir">此文件夹为空</string>
+    <string name="loading_dir">正在加载…</string>
+    <string name="loading_dir_title">%1$s  ·  正在加载…</string>
+
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索当前文件夹及子目录</string>
+    <string name="search_scope">搜索范围：%1$s</string>
+    <string name="search_searching">搜索中… 已找到 %1$d 项</string>
+    <string name="search_found">找到 %1$d 项</string>
+    <string name="search_limit">已显示前 %1$d 项，请输入更精确的关键词</string>
+    <string name="search_empty">没有找到匹配的文件</string>
+    <string name="search_close">退出搜索</string>
+    <string name="perm_title">需要文件访问权限</string>
+    <string name="perm_desc">授予「所有文件访问权限」后，EZip 才能浏览手机文件并压缩、解压任意目录。</string>
+    <string name="perm_button">去开启权限</string>
+    <string name="perm_settings">打开系统设置</string>
+    <string name="perm_btn_manage">去开启「所有文件访问权限」</string>
+    <string name="perm_btn_legacy">允许「存储」权限</string>
+    <string name="perm_btn_too_old">本机请安装兼容版</string>
+    <string name="perm_desc_legacy">当前是兼容版（旧版存储模型）。请允许「存储」权限，之后即可浏览手机全部文件。</string>
+    <string name="perm_desc_too_old">Android 10 及以下无法使用「所有文件访问权限」，请安装 EZip 兼容版 APK（文件名带 -compat）才能浏览全部文件。</string>
+    <string name="perm_hint_manage">开启后返回本页会自动重新检测；部分机型路径为「设置 → 应用 → 特殊权限 → 所有文件访问」。</string>
+
+    <string name="prev_page">上一页</string>
+    <string name="next_page">下一页</string>
+    <string name="play_pause">播放或暂停</string>
+    <string name="up_level">上一级</string>
+
+    <string name="sort_name">按名称</string>
+    <string name="sort_size">按大小</string>
+    <string name="sort_date">按时间</string>
+
+    <string name="compress_title">压缩为压缩包</string>
+    <string name="compress_name">文件名</string>
+    <string name="compress_format">格式</string>
+    <string name="compress_format_zip">ZIP（兼容性最好）</string>
+    <string name="compress_format_7z">7Z（压缩率最高）</string>
+    <string name="compress_format_tar">TAR（仅打包，不压缩）</string>
+    <string name="compress_format_tar_gz">TAR.GZ（Linux 常用）</string>
+    <string name="compress_format_tar_bz2">TAR.BZ2（压缩率较高）</string>
+    <string name="compress_format_tar_xz">TAR.XZ（压缩率最高）</string>
+    <string name="tar_no_password">TAR 格式不支持加密</string>
+    <string name="compress_level">压缩级别</string>
+    <string name="level_store">仅存储</string>
+    <string name="level_normal">标准</string>
+    <string name="level_max">最大</string>
+    <string name="compress_password">加密密码（可选）</string>
+    <string name="password_hint">留空表示不加密</string>
+    <string name="start_compress">开始压缩</string>
+
+    <string name="extract_title">解压</string>
+    <string name="extract_target">解压到</string>
+    <string name="extract_password">密码</string>
+    <string name="extract_password_hint">压缩包有密码时填写</string>
+    <string name="start_extract">开始解压</string>
+    <string name="extract_here">解压到当前目录</string>
+    <string name="extract_to">解压到…</string>
+    <string name="view_content">查看内容</string>
+    <string name="extract_all">全部解压</string>
+    <string name="entries_count">%1$d 个文件</string>
+
+    <string name="preparing">准备中…</string>
+    <string name="work_cancel">取消</string>
+    <string name="preview_unsupported">无法预览此文件</string>
+    <string name="preview_unsupported_desc">可以使用其他应用打开它。</string>
+    <string name="loading">加载中…</string>
+    <string name="page_of">第 %1$d / %2$d 页</string>
+
+    <string name="delete_confirm_title">删除确认</string>
+    <string name="delete_confirm_msg">确定删除 %1$d 项？此操作不可恢复。</string>
+    <string name="new_folder_title">新建文件夹</string>
+    <string name="name_hint">请输入名称</string>
+    <string name="rename_title">重命名</string>
+    <string name="about_msg">EZip 1.0.0\n\n一个开源、免费、无广告的 Android 压缩解压工具。\n\n支持解压：ZIP / RAR / 7Z / TAR / GZ / BZ2 / XZ\n支持压缩：ZIP（AES-256 加密）/ 7Z（AES-256 加密）\n支持预览：图片、文本、PDF、视频、音频、Word、PPT、Excel</string>
+
+    <string name="err_permission">没有权限访问该目录</string>
+    <string name="err_no_selection">请先选择文件</string>
+    <string name="err_single_archive">请只选择一个压缩包进行解压</string>
+    <string name="err_empty_name">名称不能为空</string>
+    <string name="err_password">密码错误或压缩包已损坏</string>
+    <string name="done_compress">压缩完成</string>
+    <string name="done_extract">解压完成</string>
+    <string name="done_delete">已删除</string>
+</resources>

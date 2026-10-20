@@ -1,0 +1,24 @@
+# ---- 构建产物，不入库 ----
+build/
+dist/
+*.idsig
+*.apk
+*.log
+
+# ---- 签名材料：绝对不能提交（泄露后别人可伪造你的更新包）----
+keystore/
+*.jks
+*.keystore
+*.p12
+
+# ---- 本地参考资料 / 工具链 / IDE ----
+skill/
+.ezip-toolchain/
+.idea/
+.vscode/
+local.properties
+
+# ---- 系统文件 ----
+Thumbs.db
+.DS_Store
+desktop.ini

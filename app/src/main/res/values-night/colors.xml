@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark palette (system dark mode). Only colors that are also defined in
+         values/colors.xml are overridden here, so widgets keep their identity. -->
+    <color name="bg">#0E1116</color>
+    <color name="surface">#171B21</color>
+    <color name="text">#E8EAED</color>
+    <color name="text2">#A0A8B4</color>
+    <color name="text3">#6E7783</color>
+    <color name="divider">#242A32</color>
+    <color name="primary_pale">#1B2740</color>
+    <color name="field_bg">#1B2027</color>
+    <color name="field_stroke">#2C333D</color>
+    <color name="row_pressed">#1E242D</color>
+</resources>
