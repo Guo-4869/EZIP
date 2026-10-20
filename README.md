@@ -1,7 +1,6 @@
 # EZip — Android 上的免费压缩/解压工具
 
-一个**免费、无广告、无需联网、源码开放的（非商业许可）** Android 压缩解压 App，界面参考了 [morluto/rea](https://github.com/morluto/rea) 与 [storytold/photocraft](https://github.com/storytold/photocraft)
-那种「干净、单一职责、可读源码」的做法：全部源码可读、可改，像电脑上的 7-Zip / WinRAR 一样直接浏览手机文件、
+一个**免费、无广告、无需联网、源码开放的（非商业许可）** Android 压缩解压 App：全部源码可读、可改，像电脑上的 7-Zip / WinRAR 一样直接浏览手机文件、
 压缩、解压、预览。
 
 - 源码：本仓库根目录（Windows 上可一键构建，见第 4 节）
@@ -326,7 +325,8 @@ adb logcat -s AndroidRuntime:E
 
 | 项目 | 处理 |
 | --- | --- |
-| 深色模式 | \es/values-night/colors.xml\ 覆盖 bg/surface/text/divider/primary_pale/field_bg/row_pressed；Java 里不再写死白色 |
+| 深色模式 | \
+es/values-night/colors.xml\ 覆盖 bg/surface/text/divider/primary_pale/field_bg/row_pressed；Java 里不再写死白色 |
 | 触控目标 | 工具栏、返回上级、翻页、播放按钮统一 48dp（skill 要求 ≥48dp） |
 | 无障碍 | 交互图标都有 \contentDescription\；装饰性类型角标 \importantForAccessibility="no"\，避免读屏念「PDF、文件名…」 |
 | 对比度 | 正文用 \#101828\ on \#FFFFFF\（约 15:1），次要文字 \#667085\（约 4.6:1） |
